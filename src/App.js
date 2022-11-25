@@ -39,7 +39,7 @@ function App() {
             type="text" 
             placeholder="Описание поста"
         />
-        
+        {/* test */}
         <MyButton onClick={addNewPost}>Создать пост</MyButton>
         <PostList posts={posts} title="Посты про JS"/>
       </form>
